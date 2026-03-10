@@ -1,0 +1,25 @@
+{
+  "name": "chaicode_practice",
+  "version": "1.0.0",
+  "description": "MERN_cohort",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soumodipbiswas/ChaiCode_practice.git"
+  },
+  "keywords": [
+    "chaicode"
+  ],
+  "author": "Soumodip Biswas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Soumodipbiswas/ChaiCode_practice/issues"
+  },
+  "homepage": "https://github.com/Soumodipbiswas/ChaiCode_practice#readme",
+  "dependencies": {
+    "react": "^19.2.4"
+  }
+}
