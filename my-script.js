@@ -57,3 +57,6 @@ myDb.updateUser('1', {
         street: 1
     }
 });
+
+var user = myDb.getUserById('1');
+console.log('User from DB:', user);
