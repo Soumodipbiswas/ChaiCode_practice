@@ -20,6 +20,11 @@
   },
   "homepage": "https://github.com/Soumodipbiswas/ChaiCode_practice#readme",
   "dependencies": {
-    "react": "^19.2.4"
+    "express": "^5.2.1",
+    "react": "^19.2.4",
+    "tsc-watch": "^7.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
   }
 }

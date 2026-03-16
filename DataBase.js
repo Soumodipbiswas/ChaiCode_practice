@@ -1,6 +1,4 @@
 "use strict";
-/// <reference lib="es2015.collection" />
-/// <reference lib="es2015.iterable" />
 Object.defineProperty(exports, "__esModule", { value: true });
 class InMemoryDB {
     _db = new Map();
@@ -26,23 +24,25 @@ class InMemoryDB {
 const myDb = new InMemoryDB();
 myDb.insertUser({
     id: '1',
-    fname: 'Piyush',
-    email: 'piyush@email.com',
-    contact: { mobile: '99999' },
+    fname: 'Soumodip',
+    lname: 'Biswas',
+    email: 'soumodipbiswas80@gmail.com',
+    contact: { mobile: '123498765' },
     address: {
-        country: 'In',
-        pin: 147001,
-        street: 1
+        country: 'India',
+        pin: 700065,
+        street: 179
     }
 });
 myDb.updateUser('1', {
-    fname: 'Piyush',
-    email: 'piyush@email.com',
-    contact: { mobile: '99999' },
+    fname: 'Soumodip',
+    lname: 'Biswas',
+    email: 'soumodipbiswas80@gmail.com',
+    contact: { mobile: '123498765' },
     address: {
-        country: 'In',
-        pin: 147001,
-        street: 1
+        country: 'India',
+        pin: 700065,
+        street: 179
     }
 });
-//# sourceMappingURL=my-script.js.map
+//# sourceMappingURL=DataBase.js.map
