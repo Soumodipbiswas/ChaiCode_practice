@@ -22,7 +22,8 @@
   "homepage": "https://github.com/Soumodipbiswas/ChaiCode_practice#readme",
   "dependencies": {
     "express": "^5.2.1",
-    "react": "^19.2.4"
+    "react": "^19.2.4",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
